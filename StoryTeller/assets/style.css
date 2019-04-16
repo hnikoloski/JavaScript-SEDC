@@ -1,0 +1,82 @@
+body {
+    background-image: url(https://images7.alphacoders.com/425/425746.jpg);
+}
+
+input[type=text] {
+    border-color: #bdc7d8;
+    border-top-color: rgb(189, 199, 216);
+    border-right-color: rgb(189, 199, 216);
+    border-bottom-color: rgb(189, 199, 216);
+    border-left-color: rgb(189, 199, 216);
+    font-size: 18px;
+    padding: 8px 10px;
+    width: 172px;
+    height: 21px;
+    font-family: 'New Rocker', cursive;
+}
+
+input[type=submit] {
+    width: 150px;
+    height: 50px;
+}
+
+.title {
+    font-family: 'New Rocker', cursive;
+}
+
+button {
+    font-family: 'New Rocker', cursive;
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 170px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.enter {
+    font-family: 'New Rocker', cursive;
+    font-size: 30px;
+}
+
+#result {
+    font-family: 'New Rocker', cursive;
+}
+
+.resultbox {
+    width: 60%;
+}
+
+.resultbox:hover {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #cec67e;
+}
